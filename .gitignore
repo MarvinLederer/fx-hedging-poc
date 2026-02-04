@@ -1,0 +1,8 @@
+# Remix / Solidity build artifacts
+.deps/
+artifacts/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
