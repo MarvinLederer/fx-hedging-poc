@@ -529,19 +529,19 @@
 					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
 				}
 			},
-			"title": "SEUR (Schaeffler Euro)",
+			"title": "SUSD (Schaeffler USD)",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "Mock ERC-20 token representing a synthetic EUR stablecoin for the thesis PoC. Owner can mint for test purposes.",
+			"notice": "Mock ERC-20 token representing a synthetic USD stablecoin for the thesis PoC. Owner can mint for test purposes.",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SEUR.sol": "SEUR"
+			"contracts/SUSD.sol": "SUSD"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -555,12 +555,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SEUR.sol": {
-			"keccak256": "0xeaa22fdd72e11f201193a015d54eec6f86854a1f155b3edf19b499afa32f3ccc",
+		"contracts/SUSD.sol": {
+			"keccak256": "0x30d8ca3ff6889f35848d2f2006cdce0ace4587ae9b30040341dd46b02530594b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e0acc5b079a11f68392fb61439cbfe17d8c12d597eea2807b411290242a84f92",
-				"dweb:/ipfs/QmUmvu6jpkAVJCCJVi5H3WU5Fd1dyrjbQRoEUkaBpiuNXk"
+				"bzz-raw://4fd574ae932c7397e347ecf40f8ece46179be9510bba17c7b159f4684cc90d7e",
+				"dweb:/ipfs/QmaCVzt9tMkEHSU7CLdYRCnaVLZrWzgm33kFZBLAW7nkz4"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {

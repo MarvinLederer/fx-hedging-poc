@@ -6,14 +6,14 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol";
 
 /**
- * @title SEUR (Schaeffler Euro)
- * @notice Mock ERC-20 token representing a synthetic EUR stablecoin for the thesis PoC.
+ * @title SUSD (Schaeffler USD)
+ * @notice Mock ERC-20 token representing a synthetic USD stablecoin for the thesis PoC.
  * Owner can mint for test purposes.
  */
-contract SEUR is ERC20, Ownable {
-    constructor(address initialOwner) 
-        ERC20("Schaeffler EUR", "SEUR") 
-        Ownable(initialOwner) 
+contract SUSD is ERC20, Ownable {
+    constructor(address initialOwner)
+        ERC20("Schaeffler Dollar", "SUSD")
+        Ownable(initialOwner)
     {}
 
     function decimals() public view virtual override returns (uint8) {
