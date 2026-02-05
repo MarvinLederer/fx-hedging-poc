@@ -14,7 +14,7 @@ contract MockOracle is Ownable {
 
     /**
      * @param decimals_ Standard Chainlink decimals (usually 8 for fiat pairs).
-     * @param initialPrice The starting price (e.g. 105000000 for 1.05).
+     * @param initialPrice The starting price (e.g. 118000000 for 1.18).
      * @param initialOwner The address that can update the price.
      */
     constructor(uint8 decimals_, int256 initialPrice, address initialOwner) Ownable(initialOwner) {

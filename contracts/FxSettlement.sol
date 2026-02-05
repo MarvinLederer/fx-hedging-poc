@@ -136,7 +136,7 @@ contract FxSettlement is AccessControl, Pausable, ReentrancyGuard {
 
         // Math: (Amount * Price) / 10^OracleDecimals
         // Assumes SEUR and SUSD both use 2 decimals (fiat-style).
-        // Example: 100.00 SEUR (10000) * 1.05 (105000000) / 10^8 = 105.00 SUSD (10500)
+        // Example: 100.00 SEUR (10000) * 1.18 (118000000) / 10^8 = 118.00 SUSD (11800)
         uint256 quoteAmount = (baseAmount * uint256(price)) / (10 ** uint256(feedDecimals));
         require(quoteAmount > 0, "quote=0");
 
